@@ -5,7 +5,7 @@ import Wrapper from "./wrapper"
 function SectionOne(props) {
     return (
         <Wrapper inputColor = "HotPink">
-        <Title inputColor = "FloralWhite" >Stay inspired, stay healthy</Title>
+        <Title inputColor = "FloralWhite" >Stay really inspired, stay healthy</Title>
         </Wrapper>
 
     )
