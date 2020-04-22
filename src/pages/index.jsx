@@ -2,23 +2,7 @@ import React from "react"
 import Title from "./title"
 import Wrapper from "./wrapper"
 
-function SectionOne(props) {
-    return (
-        <Wrapper inputColor = "HotPink">
-        <Title inputColor = "FloralWhite" >Stay really inspired, stay healthy</Title>
-        </Wrapper>
 
-    )
-  }
-
-  function SectionTwo(props) {
-    return (
-        <Wrapper inputColor = "Grey">
-        <Title inputColor = "HotPink" >Stay inspired, stay healthy</Title>
-        </Wrapper>
-
-    )
-  }
 
 export default () => (
   <div>
@@ -30,9 +14,5 @@ export default () => (
      <Title inputColor = "HotPink" >Stay inspired, stay healthy</Title>
      </Wrapper>
 
-     <SectionOne></SectionOne>
-    <SectionTwo></SectionTwo>
-    <SectionOne></SectionOne>
-    <SectionTwo></SectionTwo>
   </div>
 )
