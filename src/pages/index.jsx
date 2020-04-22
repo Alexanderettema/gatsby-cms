@@ -1,7 +1,4 @@
 import React from "react"
-
-import styled from "styled-components"
-
 import Title from "./title"
 import Wrapper from "./wrapper"
 

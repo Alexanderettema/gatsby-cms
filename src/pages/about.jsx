@@ -23,4 +23,10 @@ function AboutPage(props) {
   )
 }
 
-export default AboutPage
+function AboutMe (){
+  return (
+    <AboutPage titleProp = "This is about me"></AboutPage>
+  )
+}
+
+export default AboutMe
